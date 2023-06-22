@@ -1,0 +1,20 @@
+.colorful-text {
+  font-size: 36px;
+  animation: rainbow 3s linear infinite;
+}
+
+.colorful-text:hover {
+  color: purple;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+@keyframes rainbow {
+  0%   { color: red; }
+  14%  { color: orange; }
+  28%  { color: yellow; }
+  42%  { color: green; }
+  57%  { color: blue; }
+  71%  { color: indigo; }
+  85%  { color: violet; }
+  100% { color: red; }
+}
